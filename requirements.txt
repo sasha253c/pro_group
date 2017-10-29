@@ -1,0 +1,4 @@
+requests
+ipython[notebook]
+jupyter
+psycopg2
