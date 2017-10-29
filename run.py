@@ -59,7 +59,7 @@ def main():
     parser = argparse.ArgumentParser(description='Get the book of current orders on the currency pair and save to database and/or file [*.csv]')
     parser.add_argument('-f', '--filename', action='store', dest='filename',
                         help='save table to filename, e.g. *.csv', type=str)
-    parser.add_argument('-d', action='store_true', dest='database',
+    parser.add_argument('-d', '--database', action='store_true', dest='database',
                         help='save to database')
     args = parser.parse_args()
 
