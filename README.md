@@ -24,11 +24,15 @@
 **Options:**
 
 -f **filename**
+
 --filename **filename**
+
     Ім'я файлу куди зберігати таблицю, e.g. *.csv;
     
 -d
+
 --database
+
     Зберігати таблицю в БД, за замовчуванням ні.
     
 ## Example
